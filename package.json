@@ -26,6 +26,7 @@
   "homepage": "https://github.com/livingyang/combo.js",
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "webpack": "^1.12.9"
   }
 }

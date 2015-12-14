@@ -1,0 +1,24 @@
+# combo.js
+A web game develop tool kit like unity.
+
+# 一些想法
+* web版 unity
+* 使用cocos2d-js-lite 作为游戏运行引擎
+* 使用Electron作为编辑器
+* 场景使用json格式定义
+* 配置文件也为json格式
+* 使用browserfy/webpack 打包项目?
+* 可以使用coffee也可以使用javascript作为项目的脚本语言
+* 默认加入lodash
+
+# TODO
+* 每个版本cocos2d保存一个app(多版本管理以后做)
+* 从一个json数据开始，运行场景
+
+# 场景
+* 场景文件为json文件，后缀名为combo
+* 增加一个接口 Application.loaderScene(string sceneName), 根据sceneName，运行对应的场景
+
+# 配置
+* 全局配置表存放在~/.combo/.config.json
+* 启动时会自动创建一个空配置

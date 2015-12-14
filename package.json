@@ -1,0 +1,31 @@
+{
+  "name": "combo.js",
+  "version": "0.0.1",
+  "description": "use coffeescript to develop cocos2d-js project.",
+  "bin": {
+    "combo": "./bin/combo"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/livingyang/combo.js.git"
+  },
+  "keywords": [
+    "cocos2d",
+    "coffeescript",
+    "combo",
+    "combo.js"
+  ],
+  "author": "livingyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/livingyang/combo.js/issues"
+  },
+  "homepage": "https://github.com/livingyang/combo.js",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "commander": "^2.9.0"
+  }
+}

@@ -6,7 +6,7 @@ var projectRoot = process.cwd();
 module.exports = {
 	entry: path.join(comboRoot, 'src', 'entry.js'),
 	output: {
-      filename: "bundle.js",
+      filename: path.join(projectRoot, 'Temp', 'app.js'),
   },
 	module: {
 		loaders: [

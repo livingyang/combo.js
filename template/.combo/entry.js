@@ -1,3 +1,7 @@
+require('./Application.coffee');
+
+console.log(require('../src/login.json'));
+
 // require src
 var req = require.context("../src", true, /^\.\/.*\.(js|coffee)$/);
 req.keys().forEach(function (m) {

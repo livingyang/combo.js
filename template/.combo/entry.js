@@ -1,6 +1,6 @@
 require('./Application.coffee');
 
-console.log(require('../src/login.json'));
+console.log(require('../src/login.combo'));
 
 // require src
 var req = require.context("../src", true, /^\.\/.*\.(js|coffee)$/);

@@ -8,7 +8,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{ test: /\.coffee$/, loader: "coffee" },
-			{ test: /\.json$/, loader: "json" }
+			{ test: /\.combo$/, loader: "json" }
 		]
 	},
 	devtool: "#inline-source-map",

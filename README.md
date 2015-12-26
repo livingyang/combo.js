@@ -18,6 +18,7 @@ A web game develop tool kit like unity.
 * 增加demo，可以启动游戏
 * 框架性的代码全部保存在combo.js根目录下，项目路径下，只保存资源和挂载脚本
 * 如何在一个CCNode上，模拟unity的脚本挂载？
+* 增加一个transform层，将combo object 转换成 cocos2d 的场景
 
 # 场景
 * 场景文件为json文件，后缀名为combo

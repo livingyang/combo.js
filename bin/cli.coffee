@@ -12,6 +12,10 @@ fs.mkdir comboConfigPath if not fs.existsSync comboConfigPath
 webpackPath = path.join __dirname, '..', 'node_modules', 'webpack', 'bin', 'webpack.js'
 configPath = path.join __dirname, 'config.js'
 
+comboPath = path.join process.cwd(), '.combo'
+# console.log comboPath
+# return;
+
 ###
 combo set-cocos2d
 ###
@@ -33,12 +37,7 @@ program
   .command('build')
   .description('build project')
   .action ->
-    # console.log webpackPath
-    # console.log fs.existsSync webpackPath
-    # child = cp.exec 'ls'
-    # console.log __dirname
-    # return
-    child = cp.exec "#{webpackPath} --config #{configPath}"
+    child = cp.exec "#{webpackPath}", cwd: comboPath
     child.stdout.pipe process.stdout
     child.stderr.pipe process.stderr
 

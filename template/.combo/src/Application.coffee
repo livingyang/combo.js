@@ -5,6 +5,6 @@ global.combo.Application = loadScene: (name) ->
 
 # scene list
 global.combo.SceneList = {}
-req = require.context("../../Assets", true, /^\.\/.*\.combo$/)
+req = require.context("../../src", true, /^\.\/.*\.combo$/)
 for m in req.keys()
   global.combo.SceneList[m] = req m
